@@ -112,24 +112,24 @@
 			</nav>
 			<div class="mobile-menu__bottom">
 				<span class="mobile-menu__title">We are also on social networks</span>
-				<ul class="c-socials c-socials--green mobile-menu__socials">
-					<li class="c-socials__item">
-						<a href="#" class="c-socials__link">
-							<svg class="c-socials__icon">
+				<ul class="c-socnav c-socnav--green mobile-menu__socials">
+					<li class="c-socnav__item">
+						<a href="#" class="c-socnav__link">
+							<svg class="c-socnav__icon">
 								<use xlink:href="img/sprite.svg#icon-twitter"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="c-socials__item">
-						<a href="#" class="c-socials__link">
-							<svg class="c-socials__icon">
+					<li class="c-socnav__item">
+						<a href="#" class="c-socnav__link">
+							<svg class="c-socnav__icon">
 								<use xlink:href="img/sprite.svg#icon-facebook"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="c-socials__item">
-						<a href="#" class="c-socials__link">
-							<svg class="c-socials__icon">
+					<li class="c-socnav__item">
+						<a href="#" class="c-socnav__link">
+							<svg class="c-socnav__icon">
 								<use xlink:href="img/sprite.svg#icon-instagram"></use>
 							</svg>
 						</a>
@@ -270,11 +270,27 @@
 						</div>
 					</div>
 					<div class="product__right">
-						<h2 class="product__name">CYPRESS & <span>SEA</span></h2>
-						<p class="product__description">Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. </p>
-						<div class="product__block">
+						<div class="product-tabs">
+							<div class="product-tabs__body">
+								<div class="product-tabs__wrapper product-tabs__wrapper--active">
+									<h2 class="product__name">CYPRESS & <span>SEA</span></h2>
+									<p class="product__description">Proin viverra, ligula sit amet ultrices semper, tristique sapien, a accumsan nisi mauris ac eros. </p>
+								</div>
+								<div class="product-tabs__wrapper">
+									<h2 class="product__name">CYPRESS & <span>SAE</span></h2>
+									<p class="product__description">Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan mauris ac eros. </p>
+								</div>
+								<div class="product-tabs__wrapper">
+									<h2 class="product__name">CYPRESS & <span>SEA</span></h2>
+									<p class="product__description">Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. </p>
+								</div>
+								<div class="product-tabs__wrapper">
+									<h2 class="product__name">CYPRESS & <span>SAE</span></h2>
+									<p class="product__description">Proin viverra, ligula sit amet ultrices semper, ligula sapien, a accumsan nisi mauris ac eros. </p>
+								</div>
+							</div>
 							<h3 class="product__title">Smells</h3>
-							<ul class="c-colors product__colors">
+							<ul class="c-colors product-tabs__list product__colors">
 								<li class="c-colors__item">
 									<label for="colors-01" class="c-colors__label">
 										<input type="radio" id="colors-01" name="colors" class="c-colors__input">
@@ -300,8 +316,39 @@
 									</label>
 								</li>
 							</ul>
-							<a href="#find" class="product__btn btn btn--square">Where can i buy</a>
 						</div>
+						<!--<h2 class="product__name">CYPRESS & <span>SEA</span></h2>
+                        <p class="product__description">Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. </p>
+                        <div class="product__block">
+                            <h3 class="product__title">Smells</h3>
+                            <ul class="c-colors product__colors">
+                                <li class="c-colors__item">
+                                    <label for="colors-01" class="c-colors__label">
+                                        <input type="radio" id="colors-01" name="colors" class="c-colors__input">
+                                        <span class="c-colors__icon" style="background: #59C4C6;"></span>
+                                    </label>
+                                </li>
+                                <li class="c-colors__item">
+                                    <label for="colors-02" class="c-colors__label">
+                                        <input type="radio" id="colors-02" name="colors" class="c-colors__input">
+                                        <span class="c-colors__icon" style="background: #8A3055;"></span>
+                                    </label>
+                                </li>
+                                <li class="c-colors__item">
+                                    <label for="colors-03" class="c-colors__label">
+                                        <input type="radio" id="colors-03" name="colors" class="c-colors__input">
+                                        <span class="c-colors__icon" style="background: #789D4A;"></span>
+                                    </label>
+                                </li>
+                                <li class="c-colors__item">
+                                    <label for="colors-04" class="c-colors__label">
+                                        <input type="radio" id="colors-04" name="colors" class="c-colors__input">
+                                        <span class="c-colors__icon" style="background: #DC8595;"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <a href="#find" class="product__btn btn btn--square">Where can i buy</a>
+                        </div>-->
 						<div class="product__block">
 							<h3 class="product__title">About the product</h3>
 							<div class="product__group">
@@ -320,7 +367,7 @@
 							</div>
 						</div>
 					</div>
-					<h3 class="product__promo-title">Glass Cleaner</h3>
+					<h1 class="product__promo-title">Glass Cleaner</h1>
 				</div>
 			</div>
 		</section>
@@ -453,24 +500,24 @@
 							</li>
 						</ul>
 					</nav>
-					<ul class="c-socials footer__socials">
-						<li class="c-socials__item">
-							<a href="#" class="c-socials__link">
-								<svg class="c-socials__icon">
+					<ul class="c-socnav footer__socnav">
+						<li class="c-socnav__item">
+							<a href="#" class="c-socnav__link">
+								<svg class="c-socnav__icon">
 									<use xlink:href="img/sprite.svg#icon-twitter"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="c-socials__item">
-							<a href="#" class="c-socials__link">
-								<svg class="c-socials__icon">
+						<li class="c-socnav__item">
+							<a href="#" class="c-socnav__link">
+								<svg class="c-socnav__icon">
 									<use xlink:href="img/sprite.svg#icon-facebook"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="c-socials__item">
-							<a href="#" class="c-socials__link">
-								<svg class="c-socials__icon">
+						<li class="c-socnav__item">
+							<a href="#" class="c-socnav__link">
+								<svg class="c-socnav__icon">
 									<use xlink:href="img/sprite.svg#icon-instagram"></use>
 								</svg>
 							</a>
